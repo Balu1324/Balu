@@ -1,0 +1,6 @@
+AT ALM IHS:                             |    BT ALM IHS:                              |        To Start/Stop artifactory server :
+                                        |                                             |
+/IBM/HTTPServer/bin/apachectl -k start  |    /IBM/PRD/IHS/bin/apachectl -k start      |        cd /IBM/data/jfrog/artifactory/app/bin
+                                        |                                             |
+/IBM/HTTPServer/bin/apachectl -k stop   |    /IBM/HTTPServer/bin/apachectl -k stop    |        Command : ./artifactory.sh start  ./artifactory.sh stop
+                                        |                                             |
